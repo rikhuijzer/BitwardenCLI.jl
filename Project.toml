@@ -1,0 +1,13 @@
+name = "BitwardenCLI"
+uuid = "ed1f4d08-fa28-4e3d-9dd4-27226644f42a"
+authors = ["Rik Huijzer <t.h.huijzer@rug.nl>"]
+version = "0.1.0"
+
+[deps]
+OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+bitwarden_cli_jll = "9720d140-3882-5b8d-84f3-6af565c4e518"
+
+[compat]
+OpenSSL_jll = "1.1"
+bitwarden_cli_jll = "=1.17.1"
+julia = "1.6"
